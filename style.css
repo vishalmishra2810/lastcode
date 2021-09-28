@@ -26,68 +26,21 @@ nav a {
   float: right;
 }
 
-    
-/* choose icon randomly starts from here */
 
-.btn {
-    border: 2px solid black;
-    background-color: white
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  /* Green */
-  .success {
-    border-color: #04AA6D;
-    color: green;
-  }
-  
-  .success:hover {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  /* Blue */
-  .info {
-    border-color: #2196F3;
-    color: dodgerblue;
-  }
-  
-  .info:hover {
-    background: #2196F3;
-    color: white;
-  }
-  
-  /* Orange */
-  .warning {
-    border-color: #ff9800;
-    color: orange;
-  }
-  
-  .warning:hover {
-    background: #ff9800;
-    color: white;
-  }
-  
-  /* Red */
-  .danger {
-    border-color: #f44336;
-    color: red;
-  }
-  
-  .danger:hover {
-    background: #f44336;
-    color: white;
-  }
-  
-  /* Gray */
-  .default {
-    border-color: #e7e7e7;
-    color: black;
-  }
-  
-  .default:hover {
-    background: #e7e7e7;
-  }
+/* topic section */
+
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  margin: 50px 50px;
+  cursor: pointer;
+  width: 400px;
+  height: 400px;
+}
