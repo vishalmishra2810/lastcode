@@ -1,3 +1,165 @@
-h1{
-    color: red;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-text p {
+    font-size: 16px;
+}
+#team-section {
+    padding: 50px 0;
+
+    background: #5385c1;
+    color: #fff;
+}
+.team-top-header h1{
+    font-weight: 300;
+}
+.team-member-id{
+    padding-top: 25px;
+}
+.team-member-id.text-center img {
+    width: 100px;
+    height: 100px;
+}
+.team-member-id.text-center h1 {
+    font-size: 18px;
+    font-weight: 300;
+}
+#recent-section {
+    padding: 50px 0;
+}
+.recent-text h1 {
+    font-weight: 300;
+
+    font-size: 25px;
 }
