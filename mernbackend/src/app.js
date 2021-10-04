@@ -21,11 +21,11 @@ app.set("view engine", "hbs");
 app.set("views", template_path);
 hbs.registerPartials(partials_path);
 
-app.get("/", (req, res) => {
+app.get("/index", (req, res) => {
     res.render("index")
 });
 
-app.get("/register", (req, res) =>{
+app.get("/", (req, res) =>{
     res.render("register");
 });
 
@@ -33,6 +33,9 @@ app.get("/login", (req, res) =>{
     res.render("login");
 });
 
+app.get("/mernbackend/templates/views/questionSet1.hbs", (req, res) =>{
+    res.render("questionSet1");
+});
 // create a new user in our database
 
 app.post("/register", async (req, res) =>{
